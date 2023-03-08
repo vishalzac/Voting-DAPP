@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Admin Dashboard - Blockchain Based Voting System</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="adminDashboard.css">
+    <link rel="stylesheet" href="votingstyle.css">
+    <link rel="stylesheet" href="goforvoting.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h2>Blockchain Based Voting System</h2>
+        <a href="index.html"><img src="vote.png" alt=""></a>
+        <div><input id="connect" class="common" type="button" value="Connect" onclick="Connect()"></div>
+    </div>
+
+    <p class="votingday" id="letsvote">Enter Your ID </p>
+    <div id="boxvot">
+        <div></div><input class="buttons" class="votingday" id="uniqeidname" type="bytes32" placeholder="Your ID">
+        <div><Button class="buttons" class="votingday" id="uniqueid">VERIFY</Button></div>
+        <div> <img src="congresss.png" id="cong"> <Button class="buttons" class="votingday" id="candidateA">CANDIDATE
+                A</Button>
+        </div>
+        <div> <img src="BJP_election_symbol.png" id="bjp"><Button class="buttons" class="votingday"
+                id="candidateB">CANDIDATE
+                B</Button></div>
+        <div> <img src="1200px-NOTA_Option_Logo.svg.png" id="nota"><Button class="buttons" class="votingday"
+                id="candidateC">CANDIDATE C</Button></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

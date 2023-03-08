@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+#votingstart {
+    display: flex;
+    flex-direction: column;
+}
+
+.procedure {
+    margin: 8px 465px;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 26px;
+    background-color: #8ab6d5;
+    color: white;
+}
+
+.procedure:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(163, 180, 198);
+}
+
+.resultday {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}

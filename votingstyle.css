@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+.nav {
+    background: #0096ff;
+
+    color: #fff;
+}
+
+img {
+
+    height: 58px;
+    position: absolute;
+    top: 8px;
+    border-radius: 50px;
+    left: 11px;
+}
+
+
+
+h2 {
+    position: relative;
+    top: 21px;
+    left: 85px;
+}
+
+#connect {
+    position: relative;
+    left: 69rem;
+    margin: 6px;
+    width: 9%;
+    font-size: 23px;
+    padding: 4px;
+    border-radius: 49px;
+    top: -20px;
+    background-color: #440bd3;
+    color: white;
+}
+
+#connect:hover {
+    color: #ece3e3;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.mainbox {
+    display: flex;
+}
+
+.first {
+    padding: 15px 0px;
+    width: 20%;
+    background-image: linear-gradient(180deg, #dee8f5 0%, rgba(222, 232, 245, 0) 100%) !important;
+    height: 100vh;
+}
+
+.create {
+    padding: 5px 15px;
+}
+
+.create h3:hover {
+    padding-left: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.second {
+    background: white;
+    width: 80%;
+
+}
+
+.second1 h2 {
+    padding: 20px;
+}
+
+.second input {
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background: #f1f1f1;
+    padding: 0px 10px;
+}
+
+.second1 input:focus {
+    border: 1px solid #0096ff;
+}
+
+#frm {
+    padding: 20px;
+}
+
+.form-pad {
+    padding-bottom: 10px;
+}
+
+.ver button {
+    height: 35px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #0096ff;
+    color: white;
+    font-weight: bold;
+}
+
+#butn {
+    height: 35px;
+    border-radius: 5px;
+    background-color: #0096ff;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #0096ff;
+}
+
+.options {
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}

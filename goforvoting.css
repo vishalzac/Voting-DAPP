@@ -1,0 +1,120 @@
+#letsvote {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    margin: -6pxpx;
+}
+
+#boxvot {
+    background-color: #2995e159;
+    width: 76rem;
+    margin-right: x;
+    margin-left: 26px;
+    border-radius: 3rem;
+}
+
+#uniqeidname {
+    position: relative;
+    left: 168px;
+    width: 74%;
+    height: 3rem;
+    border-radius: 21px;
+    font-size: 25px;
+    text-align: center;
+    margin: 16px -3px;
+}
+
+#uniqueid {
+    position: relative;
+    left: 31rem;
+    width: 19%;
+    height: 3rem;
+    border-radius: 21px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #0096ff;
+
+}
+
+#candidateA {
+    position: relative;
+    width: 34%;
+    height: 3rem;
+    border-radius: 21px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #6ad36a;
+    left: 352px;
+    top: -37px;
+}
+
+#candidateB {
+    position: relative;
+    width: 34%;
+    height: 3rem;
+    border-radius: 21px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #6ad36a;
+
+    left: 322px;
+    top: -37px;
+}
+
+#candidateC {
+    position: relative;
+    width: 34%;
+    height: 3rem;
+    border-radius: 21px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #6ad36a;
+    left: 312px;
+    top: -37px;
+}
+
+#uniqueid:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #9ce29c;
+}
+
+#candidateA:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #9ce29c;
+}
+
+#candidateB:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #9ce29c;
+}
+
+#candidateC:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #9ce29c;
+}
+
+#cong {
+    height: 95px;
+    position: relative;
+    left: 308px;
+}
+
+#bjp {
+    height: 95px;
+    position: relative;
+    left: 285px;
+}
+
+#nota {
+    height: 95px;
+    position: relative;
+    left: 285px;
+}
